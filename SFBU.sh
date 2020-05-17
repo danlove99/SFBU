@@ -15,7 +15,4 @@ date +'FORMAT'
 backup_dir=$(date +'%m-%d-%Y')
 echo "Backup dir for today: /home/$(whoami)/backups/${backup_dir}"
 
-
-
-
-tar -czf myhome_directory.tar.gz $1
+tar -czf /home/$(whoami)/backups/"$backupdir".tar.gz $1
