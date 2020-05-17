@@ -1,15 +1,19 @@
 #!/bin/bash
 
+if [ ! -f /home/$(whoami)/backups ]; then
+	mkdir /home/$(whoami)/backups
+fi
+
 date +'FORMAT'
  
 ### mm/dd/yyyy ###
-date +'%m/%d/%Y'
- 
+#date +'%m-%d/%Y'
+
 #
-date +'%r'
+#date +'%r'
  
 backup_dir=$(date +'%m-%d-%Y')
-echo "Backup dir for today: /nas04/backups/${backup_dir}"
+echo "Backup dir for today: /home/$(whoami)/backups/${backup_dir}"
 
 
 
