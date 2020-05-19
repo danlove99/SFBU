@@ -2,9 +2,9 @@
 </br>
 ## About
 Simple File BackUp(SFBU) is... well the name is pretty self explanitory, It 
-compresses a directory of your choosing to a directory of you choosing or a 
-default location. There's no special features or anything fancy it's just a
-basic package for a basic usage.
+compresses a directory of your choosing to a directory of you're choosing or a 
+default location. There's no special features or anything fancy, it's just a
+basic package for basic usage.
 
 ## Usage
 `SBFU /directory/to/compress [OPTIONAL]/directory/to/store/example.tar.gz` </br>
